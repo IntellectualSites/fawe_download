@@ -2,18 +2,10 @@ var web_interface = {
 	"label": "Web interface (Instead of using the public one)",
 	"url": "https://intellectualsites.github.io/download/webinterface.html"
 }
-var asset_interface = {
-	"label": "Asset interface - to host private assets",
-	"url": "https://empcraft.com/assetpack/source.zip"
-}
 
 var vault = {
 	"label": "Vault - for persistent toggles on Spigot",
 	"url": "https://dev.bukkit.org/bukkit-plugins/vault/"
-}
-var blocks_hub = {
-	"label": "BlocksHub - integration with third party logging plugins on Spigot",
-	"url": "https://github.com/boy0001/FastAsyncWorldedit/wiki/Third-party-loggers"
 }
 
 var heightmap_interface = {
@@ -22,13 +14,11 @@ var heightmap_interface = {
 }
 
 var projects = {
-	"Spigot 1.15.2 - 1.16.5": {
+	"Spigot 1.17, 1.16.5, 1.15.2": {
 		"download": [
 			{
 				"label": "Download FAWE (BETA Development Builds)",
-				"url": "https://ci.athion.net/job/FastAsyncWorldEdit-1.16/lastSuccessfulBuild/artifact/worldedit-bukkit/build/libs/",
-				"regex": "FastAsyncWorldEdit-",
-				"ext": "jar"
+				"url": "https://ci.athion.net/job/FastAsyncWorldEdit-1.17/",
 			},
 			{
 				"label": "Do not install WorldEdit (FAWE is a replacement)"
@@ -41,7 +31,30 @@ var projects = {
 		"dependencies": [
 			vault,
 			web_interface,
-			asset_interface,
+			heightmap_interface,
+		],
+		"config_path": "plugins"
+	},
+	"Spigot 1.15.2 & 1.16.5": {
+		"download": [
+			{
+				"label": "Download FAWE (Development Snapshot - UNSUPPORTED, use the 1.17 builds. They retain compatbility back to 1.15.2)",
+				"url": "https://github.com/IntellectualSites/download/raw/gh-pages/artifacts/Fawe/FastAsyncWorldEdit-Bukkit-1.16-735.jar",
+			},
+			{
+				"label": "Checksum: c8d802756b86a246b2d5dee86dd58fdd"
+			},
+			{
+				"label": "Do not install WorldEdit (FAWE is a replacement)"
+			},
+			{
+				"label": "Download FastAsyncVoxelSniper (FAVS)",
+				"url": "https://intellectualsites.github.io/download/favs.html",
+			}
+		],
+		"dependencies": [
+			vault,
+			web_interface,
 			heightmap_interface,
 		],
 		"config_path": "plugins"
@@ -68,9 +81,7 @@ var projects = {
 		],
 		"dependencies": [
 			vault,
-			blocks_hub,
 			web_interface,
-			asset_interface,
 			heightmap_interface,
 		],
 		"config_path": "plugins"
@@ -98,7 +109,6 @@ var projects = {
 		"dependencies": [
 			vault,
 			web_interface,
-			asset_interface,
 			heightmap_interface,
 		],
 		"config_path": "plugins"
@@ -119,9 +129,7 @@ var projects = {
 		],
 		"dependencies": [
 			vault,
-			blocks_hub,
 			web_interface,
-			asset_interface,
 			heightmap_interface,
 		],
 		"config_path": "plugins"
@@ -142,7 +150,6 @@ var projects = {
 		],
 		"dependencies": [
 			web_interface,
-			asset_interface,
 			heightmap_interface,
 		],
 		"config_path": "plugins"
@@ -164,7 +171,6 @@ var projects = {
 		],
 		"dependencies": [
 			web_interface,
-			asset_interface,
 			heightmap_interface,
 		],
 		"config_path": "mods"
@@ -185,7 +191,6 @@ var projects = {
 		],
 		"dependencies": [
 			web_interface,
-			asset_interface,
 			heightmap_interface,
 		],
 		"config_path": "mods"
@@ -207,7 +212,6 @@ var projects = {
 		],
 		"dependencies": [
 			web_interface,
-			asset_interface,
 			heightmap_interface,
 		],
 		"config_path": "mods"
@@ -229,7 +233,6 @@ var projects = {
 		],
 		"dependencies": [
 			web_interface,
-			asset_interface,
 			heightmap_interface,
 		],
 		"config_path": "mods"
@@ -251,7 +254,6 @@ var projects = {
 		],
 		"dependencies": [
 			web_interface,
-			asset_interface,
 			heightmap_interface,
 		],
 		"config_path": "mods"
@@ -266,7 +268,6 @@ var projects = {
 		],
 		"dependencies": [
 			web_interface,
-			asset_interface,
 			heightmap_interface,
 		],
 		"config_path": "mods"
@@ -281,11 +282,10 @@ var projects = {
 		],
 		"dependencies": [
 			web_interface,
-			asset_interface,
 			heightmap_interface,
 		],
 		"config_path": "mods"
 	}
 }
 
-projectDefault = "Spigot 1.15.2 - 1.16.5";
+projectDefault = "Spigot 1.17, 1.16.5, 1.15.2";
