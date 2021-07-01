@@ -66,6 +66,9 @@ var projects = {
 				"url": "https://github.com/IntellectualSites/download/raw/gh-pages/artifacts/Fawe/FastAsyncWorldEdit-1.14-361.jar",
 			},
 			{
+				"label": "Checksum: db0078cbda7df8bb86280fb2bef2d45f"
+			},
+			{
 				"label": "Do not install WorldEdit (FAWE is a replacement)"
 			},
 			{
@@ -91,6 +94,9 @@ var projects = {
 			{
 				"label": "Download FAWE (Development Snapshot - NOT STABLE AND UNSUPPORTED, upgrade to 1.15+)",
 				"url": "https://github.com/IntellectualSites/download/raw/gh-pages/artifacts/Fawe/FastAsyncWorldEdit-1.13-45.jar",
+			},
+			{
+				"label": "Checksum: a884d48d5de0bf7b0ec2479ba4a3704e"
 			},
 			{
 				"label": "Do not install WorldEdit (FAWE is a replacement)"
