@@ -3,11 +3,6 @@ var web_interface = {
 	"url": "https://intellectualsites.github.io/download/webinterface.html"
 }
 
-var vault = {
-	"label": "Vault - for persistent toggles on Spigot",
-	"url": "https://dev.bukkit.org/bukkit-plugins/vault/"
-}
-
 var heightmap_interface = {
 	"label": "Heightmap Interface",
 	"url": "https://intellectualsites.github.io/download/heightmaps.html",
@@ -29,7 +24,6 @@ var projects = {
 			}
 		],
 		"dependencies": [
-			vault,
 			web_interface,
 			heightmap_interface,
 		],
@@ -53,7 +47,6 @@ var projects = {
 			}
 		],
 		"dependencies": [
-			vault,
 			web_interface,
 			heightmap_interface,
 		],
@@ -83,7 +76,6 @@ var projects = {
 			}
 		],
 		"dependencies": [
-			vault,
 			web_interface,
 			heightmap_interface,
 		],
@@ -113,7 +105,6 @@ var projects = {
 			}
 		],
 		"dependencies": [
-			vault,
 			web_interface,
 			heightmap_interface,
 		],
@@ -134,7 +125,6 @@ var projects = {
 			}
 		],
 		"dependencies": [
-			vault,
 			web_interface,
 			heightmap_interface,
 		],
