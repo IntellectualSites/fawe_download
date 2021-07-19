@@ -1,20 +1,10 @@
-var vault = {
-	"label": "Vault - for persistent toggles on Spigot",
-	"url": "https://dev.bukkit.org/bukkit-plugins/vault/"
-}
-
 var projects = {
-	"Spigot 1.13.2 - 1.16.5": {
+	"Spigot 1.13.2 - 1.17.1": {
 		"download": [
 			{
 				"label": "Download FAVS",
-				"url": "https://ci.athion.net/job/FastAsyncVoxelSniper-flattening/lastSuccessfulBuild/artifact/build/libs/",
-				"regex": "FastAsyncVoxelSniper-flattened-",
-				"ext": "jar"
+				"url": "https://dev.bukkit.org/projects/favs"
             }
-		],
-		"dependencies": [
-			vault,
 		],
 		"config_path": "plugins"
 	},
@@ -34,11 +24,8 @@ var projects = {
 				"url": "https://intellectualsites.github.io/download/fawe.html",
 			}
 		],
-		"dependencies": [
-			vault,
-		],
 		"config_path": "plugins"
 	},
 }
 
-projectDefault = "Spigot 1.13.2 - 1.16.5";
+projectDefault = "Spigot 1.13.2 - 1.17.1";
