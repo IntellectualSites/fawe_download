@@ -12,9 +12,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download FAVS - Development Snapshot - UNSUPPORTED, use the 1.17 builds.",
-				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
-				"regex": "FastAsyncVoxelSniper-favs",
-				"ext": "jar"
+				"url": "https://dev.bukkit.org/projects/favs"
             },
             {
 				"label": "Note: FAVS requires FAWE to work"

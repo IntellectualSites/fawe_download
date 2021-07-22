@@ -20,7 +20,7 @@ var projects = {
 			},
 			{
 				"label": "Download FastAsyncVoxelSniper (FAVS)",
-				"url": "https://intellectualsites.github.io/download/favs.html",
+				"url": "https://dev.bukkit.org/projects/favs",
 			}
 		],
 		"dependencies": [
@@ -49,7 +49,7 @@ var projects = {
 			},
 			{
 				"label": "Download FastAsyncVoxelSniper (FAVS)",
-				"url": "https://intellectualsites.github.io/download/favs.html",
+				"url": "https://dev.bukkit.org/projects/favs",
 			}
 		],
 		"dependencies": [
@@ -78,7 +78,7 @@ var projects = {
 			},
 			{
 				"label": "Download FastAsyncVoxelSniper (FAVS)",
-				"url": "https://intellectualsites.github.io/download/favs.html",
+				"url": "https://dev.bukkit.org/projects/favs",
 			}
 		],
 		"dependencies": [
@@ -95,7 +95,7 @@ var projects = {
 			},
 			{
 				"label": "Download FastAsyncVoxelSniper (FAVS)",
-				"url": "https://intellectualsites.github.io/download/favs.html",
+				"url": "https://dev.bukkit.org/projects/favs",
 			},
 			{
 				"label": "WorldEdit & VoxelSniper will be installed automatically"
