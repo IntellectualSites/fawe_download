@@ -9,34 +9,11 @@ var heightmap_interface = {
 }
 
 var projects = {
-	"Spigot 1.17, 1.16.5, 1.15.2": {
+	"Spigot 1.17.1, 1.16.5, 1.15.2": {
 		"download": [
 			{
 				"label": "Download FAWE (BETA Development Builds)",
 				"url": "https://ci.athion.net/job/FastAsyncWorldEdit-1.17/",
-			},
-			{
-				"label": "Do not install WorldEdit (FAWE is a replacement)"
-			},
-			{
-				"label": "Download FastAsyncVoxelSniper (FAVS)",
-				"url": "https://intellectualsites.github.io/download/favs.html",
-			}
-		],
-		"dependencies": [
-			web_interface,
-			heightmap_interface,
-		],
-		"config_path": "plugins"
-	},
-	"Spigot 1.15.2 & 1.16.5": {
-		"download": [
-			{
-				"label": "Download FAWE (Development Snapshot - UNSUPPORTED, use the 1.17 builds. They retain compatibility back to 1.15.2)",
-				"url": "https://github.com/IntellectualSites/download/raw/gh-pages/artifacts/Fawe/FastAsyncWorldEdit-Bukkit-1.16-735.jar",
-			},
-			{
-				"label": "Checksum: c8d802756b86a246b2d5dee86dd58fdd"
 			},
 			{
 				"label": "Do not install WorldEdit (FAWE is a replacement)"
@@ -284,4 +261,4 @@ var projects = {
 	}
 }
 
-projectDefault = "Spigot 1.17, 1.16.5, 1.15.2";
+projectDefault = "Spigot 1.17.1, 1.16.5, 1.15.2";
