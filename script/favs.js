@@ -11,7 +11,7 @@ var projects = {
 	"Spigot 1.7.10 - 1.12.2": {
 		"download": [
 			{
-				"label": "Download FAVS",
+				"label": "Download FAVS - Development Snapshot - UNSUPPORTED, use the 1.17 builds.",
 				"url": "http://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/target/",
 				"regex": "FastAsyncVoxelSniper-favs",
 				"ext": "jar"

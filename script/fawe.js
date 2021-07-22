@@ -32,7 +32,7 @@ var projects = {
 	"Spigot 1.15.2 & 1.16.5": {
 		"download": [
 			{
-				"label": "Download FAWE (Development Snapshot - UNSUPPORTED, use the 1.17 builds. They retain compatbility back to 1.15.2)",
+				"label": "Download FAWE (Development Snapshot - UNSUPPORTED, use the 1.17 builds. They retain compatibility back to 1.15.2)",
 				"url": "https://github.com/IntellectualSites/download/raw/gh-pages/artifacts/Fawe/FastAsyncWorldEdit-Bukkit-1.16-735.jar",
 			},
 			{
