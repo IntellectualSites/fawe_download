@@ -1,5 +1,5 @@
 var projects = {
-	"Spigot 1.13 - 1.16.5": {
+	"Spigot 1.13 - 1.18.1": {
 		"download": [
 			{
 				"label": "Download Plot2Dynmap (Latest Release Build)",
@@ -39,4 +39,4 @@ var projects = {
 	}
 }
 
-projectDefault = "Spigot 1.13 - 1.16.5";
+projectDefault = "Spigot 1.13 - 1.18.1";

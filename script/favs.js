@@ -1,5 +1,5 @@
 var projects = {
-	"Spigot 1.13.2 - 1.17.1": {
+	"Spigot 1.13.2 - 1.18.1": {
 		"download": [
 			{
 				"label": "Download FAVS",
@@ -26,4 +26,4 @@ var projects = {
 	},
 }
 
-projectDefault = "Spigot 1.13.2 - 1.17.1";
+projectDefault = "Spigot 1.13.2 - 1.18.1";
