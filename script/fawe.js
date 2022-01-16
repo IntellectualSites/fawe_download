@@ -12,7 +12,7 @@ var projects = {
 	"Spigot 1.18.1, 1.18, 1.17.1, 1.16.5, 1.15.2": {
 		"download": [
 			{
-				"label": "Download FAWE (BETA Development Builds)",
+				"label": "Download FAWE",
 				"url": "https://ci.athion.net/job/FastAsyncWorldEdit/",
 			},
 			{
