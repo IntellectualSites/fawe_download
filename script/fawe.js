@@ -9,7 +9,7 @@ var heightmap_interface = {
 }
 
 var projects = {
-	"Spigot 1.18.2, 1.18.1, 1.18, 1.17.1, 1.16.5": {
+	"Spigot 1.16.5-1.18.2": {
 		"download": [
 			{
 				"label": "Download FAWE",
