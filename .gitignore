@@ -131,4 +131,4 @@ local.properties
 /target/
 checkstyle.xml
 classes/
-/.DS_Store
+.DS_Store
