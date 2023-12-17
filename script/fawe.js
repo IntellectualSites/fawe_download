@@ -33,7 +33,7 @@ var projects = {
 		"download": [
 			{
 				"label": "Download FAWE",
-				"url": "https://ci.athion.net/job/FastAsyncWorldEdit/588/",
+				"url": "https://ci.athion.net/job/FastAsyncWorldEdit/588/artifact/artifacts/FastAsyncWorldEdit-Bukkit-2.8.2-SNAPSHOT-588.jar",
 			},
 			{
 				"label": "Do not install WorldEdit (FAWE is a replacement)"
