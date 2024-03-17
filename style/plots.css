@@ -11,31 +11,7 @@
     height:160px;
     line-height: 160px;
 }
-.b-select-wrap > select {
-    color:#0645AD;
-}
-/*
-@keyframes glitch-anim {
-    0% {
-      clip: rect(100px, 3840px, 110px, 0);
-    }
-    20% {
-      clip: rect(50px, 3840px, 60px, 0);
-    }
-    40% {
-      clip: rect(40px, 3840px, 110px, 0);
-    }
-    60% {
-      clip: rect(80px, 3840px, 100px, 0);
-    }
-    80% {
-      clip: rect(53px, 3840px, 45px, 0);
-    }
-    100% {
-      clip: rect(80px, 3840px, 40px, 0);
-    }
-}
-*/
+
 #banner::after,#banner::before{
     content: attr(data-text);
     position: absolute;
