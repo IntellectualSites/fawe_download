@@ -29,7 +29,7 @@ var projects = {
 		],
 		"config_path": "plugins"
 	},
-	"Spigot 1.18.2: {
+	"Spigot 1.18.2": {
 		"download": [
 			{
 				"label": "Download FAWE",
