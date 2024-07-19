@@ -9,7 +9,7 @@ var heightmap_interface = {
 }
 
 var projects = {
-	"Spigot 1.19.4, 1.20, 1.20.4, 1.20.6": {
+	"Spigot 1.20.2, 1.20.4, 1.20.6, 1.21": {
 		"download": [
 			{
 				"label": "Download FAWE",
@@ -29,10 +29,30 @@ var projects = {
 		],
 		"config_path": "plugins"
 	},
-	"Spigot 1.18.2": {
+	"Spigot 1.19.4, 1.20.1: {
 		"download": [
 			{
-				"label": "Download FAWE",
+				"label": "Download unsupported FAWE",
+				"url": "https://ci.athion.net/job/FastAsyncWorldEdit/820/",
+			},
+			{
+				"label": "Do not install WorldEdit (FAWE is a replacement)"
+			},
+			{
+				"label": "Download FastAsyncVoxelSniper (FAVS)",
+				"url": "https://dev.bukkit.org/projects/favs",
+			}
+		],
+		"dependencies": [
+			web_interface,
+			heightmap_interface,
+		],
+		"config_path": "plugins"
+	},
+	"Spigot 1.18.2: {
+		"download": [
+			{
+				"label": "Download unsupported FAWE",
 				"url": "https://modrinth.com/plugin/fastasyncworldedit/version/2.9.2",
 			},
 			{
@@ -52,7 +72,7 @@ var projects = {
 	"Spigot 1.16.5 - 1.17.1": {
 		"download": [
 			{
-				"label": "Download FAWE",
+				"label": "Download unsupported FAWE",
 				"url": "https://modrinth.com/plugin/fastasyncworldedit/version/2.8.4",
 			},
 			{
@@ -72,7 +92,7 @@ var projects = {
 	"Spigot 1.14.4": {
 		"download": [
 			{
-				"label": "Download FAWE (Development Snapshot - NOT STABLE AND UNSUPPORTED, upgrade to 1.15+)",
+				"label": "Download unsupported FAWE",
 				"url": "https://github.com/IntellectualSites/download/raw/gh-pages/artifacts/Fawe/FastAsyncWorldEdit-1.14-361.jar",
 			},
 			{
@@ -101,7 +121,7 @@ var projects = {
 	"Spigot 1.13.2": {
 		"download": [
 			{
-				"label": "Download FAWE (Development Snapshot - NOT STABLE AND UNSUPPORTED, upgrade to 1.15+)",
+				"label": "Download unsupported FAWE",
 				"url": "https://github.com/IntellectualSites/download/raw/gh-pages/artifacts/Fawe/FastAsyncWorldEdit-1.13-45.jar",
 			},
 			{
@@ -127,10 +147,10 @@ var projects = {
 		],
 		"config_path": "plugins"
 	},
-	"Spigot 1.7.10 - 1.12.2": {
+	"Spigot 1.8.8 - 1.12.2": {
 		"download": [
 			{
-				"label": "Download FAWE (Development Snapshot - NOT STABLE AND UNSUPPORTED, upgrade to 1.15+)",
+				"label": "Download unsupported FAWE",
 				"url": "https://ci.athion.net/job/FastAsyncWorldEdit-Legacy/"
 			},
 			{
@@ -301,4 +321,4 @@ var projects = {
 	}
 }
 
-projectDefault = "Spigot 1.18.2, 1.19.4, 1.20, 1.20.4";
+projectDefault = "Spigot 1.20.2, 1.20.4, 1.20.6, 1.21";
