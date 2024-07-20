@@ -29,7 +29,7 @@ var projects = {
 		],
 		"config_path": "plugins"
 	},
-	"Spigot 1.19.4, 1.20.1: {
+	"Spigot 1.19.4, 1.20.1": {
 		"download": [
 			{
 				"label": "Download unsupported FAWE",
@@ -49,7 +49,7 @@ var projects = {
 		],
 		"config_path": "plugins"
 	},
-	"Spigot 1.18.2: {
+	"Spigot 1.18.2": {
 		"download": [
 			{
 				"label": "Download unsupported FAWE",
